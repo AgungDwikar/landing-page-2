@@ -4,13 +4,14 @@ import { MenuIcon } from "@heroicons/react/solid";
 
 function Header() {
     return (
-        <header className="container flex justify-between shadow-md md:shadow-none h-20 ">
+        <header className="container flex justify-between w-full shadow-md md:shadow-none h-20 sticky top-0 z-50 backdrop-blur-md rounded-md ">
             {/* <div className=" md:hidden lg:inline-flex  ">
                 <img className=" bg-logo-img " width="178" alt="" />
             </div>
             <div className=" hidden md:inline-block lg:hidden bg-logo-bg  ">
                 <img className=" bg-logo-bg " width="45" alt="" />
             </div> */}
+
             <img
                 // className="md:hidden lg:inline-flex bg-logo-img h-9 mt-4 "
                 className="md:hidden lg:inline-flex"

@@ -3,7 +3,7 @@ import { PlayIcon } from "@heroicons/react/solid";
 
 function Hero() {
     return (
-        <main className="container mt-4 md:flex flex-row-reverse justify-between items-center">
+        <main className="container mt-4 md:flex flex-row-reverse justify-between items-center ">
             <div className="md:max-w-[50%]">
                 <img src="./images/team.png" alt="hero" />
             </div>
