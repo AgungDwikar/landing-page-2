@@ -9,12 +9,19 @@ import Feature from "./FeatureItem";
 
 function Features() {
     return (
-        <section className="container mt-24 flex flex-col items-center">
+        <section
+            className="container mt-24 flex flex-col items-center"
+            id="feature"
+        >
             <h2 className="text-[32px] font-bold text-center sm:text-left">
                 Product was Built Specifically for You
             </h2>
 
-            <div className="mt-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-16">
+            <div
+                className="mt-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-16"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+            >
                 <div>
                     <Feature
                         Icon={CursorClickIcon}

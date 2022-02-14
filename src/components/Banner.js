@@ -3,7 +3,11 @@ import React from "react";
 function Banner() {
     return (
         <div className=" mt-28">
-            <div className=" m-auto p-5 bg-[#02897A] flex items-center flex-col md:flex-row justify-between">
+            <div
+                className=" m-auto p-5 bg-[#02897A] flex items-center flex-col md:flex-row justify-between "
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+            >
                 <div className="text-center md:text-left md:max-w-[55%] md:mx-6 lg:mx-10">
                     <h3 className="text-[32px] font-semibold leading-[150%] text-white text-left">
                         Trusted By Leading <h3>Brands And start up</h3>

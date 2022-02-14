@@ -3,7 +3,7 @@ import { PlayIcon } from "@heroicons/react/solid";
 
 function Hero() {
     return (
-        <main className="container mt-4 md:flex flex-row-reverse justify-between items-center ">
+        <main className="container mt-4 md:flex flex-row-reverse justify-between items-center " id="hero">
             <div className="md:max-w-[50%]">
                 <img src="./images/team.png" alt="hero" />
             </div>
@@ -19,7 +19,7 @@ function Hero() {
                     experience.
                 </p>
                 <div className="mt-8 flex items-center justify-around sm:justify-start sm:space-x-8">
-                    <button className="primary-button">Get Started</button>
+                    <button className="primary-button ">Get Started</button>
                     <p className="font-semibold text-primary whitespace-nowrap flex items-center underline hover:scale-110 active:scale-95 duration-200 cursor-pointer">
                         <PlayIcon className="h-8" />
                         Watch the Video

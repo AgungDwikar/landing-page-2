@@ -1,7 +1,7 @@
 import React from "react";
 
-function Link({ text }) {
+function Links({ text }) {
     return <p className="cursor-pointer mt-2">{text}</p>;
 }
 
-export default Link;
+export default Links;

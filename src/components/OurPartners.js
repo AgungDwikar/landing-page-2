@@ -2,7 +2,14 @@ import React from "react";
 
 function OurPartners() {
     return (
-        <div className=" mt-28">
+        <div
+            className=" mt-28"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+            id="aboutus"
+        >
             <div className=" m-auto p-5 bg-[#02897A] flex items-center flex-col md:flex-row justify-between">
                 <div className="text-center md:text-left md:max-w-[55%] md:mx-6 lg:mx-10">
                     <h3 className="text-[32px] font-semibold leading-[150%] text-white text-left">
