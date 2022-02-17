@@ -2,9 +2,9 @@ import React from "react";
 
 function Banner() {
     return (
-        <div className=" mt-28">
+        <div className=" mt-28 ">
             <div
-                className=" m-auto p-5 bg-[#02897A] flex items-center flex-col md:flex-row justify-between "
+                className=" m-auto p-5 bg-gradient-to-r from-orange-600 to-red-600 flex items-center flex-col md:flex-row justify-between "
                 data-aos="zoom-in-right"
                 data-aos-duration="2000"
             >

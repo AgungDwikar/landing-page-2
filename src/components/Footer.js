@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function Footer() {
     return (
-        <div className="mt-24 pt-12 pb-8">
+        <div className="mt-20 pt-12 pb-8">
             <div className="container mb-12 text-center sm:text-left grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
                 <div className="mx-auto sm:ml-0">
                     <Link
@@ -16,8 +16,8 @@ function Footer() {
                         duration={500}
                     >
                         <img
-                            className="cursor-pointer"
-                            src="./images/logo-full.svg"
+                            className="h-8 w-auto sm:h-10 cursor-pointer"
+                            src="./images/codeid.png"
                             alt="logo"
                         />
                     </Link>
@@ -59,8 +59,12 @@ function Footer() {
 
                 <div className="lg:col-span-2">
                     <h6 className="font-medium text-xl">
-                        knowing you're always on the best energy deal.
+                        PT. CODE DEVELOPMENT INDONESIA
                     </h6>
+                    <p className="mt-3">
+                        APL Tower 30th Floor, Jl. Letjen S. Parman Kav. 28
+                        Jakarta, 11470, Indonesia
+                    </p>
                     <div className="mt-9 border border-[#BCD0E5] rounded-md text-left">
                         <input
                             className="w-full p-2 bg-transparent outline-none"
@@ -73,7 +77,7 @@ function Footer() {
             </div>
 
             <p className="text-center mt-12">
-                Made With Love By Product All Right Reserved
+                © 2019 PT. Code Development Indonesia. All Rights Reserved.
             </p>
         </div>
     );

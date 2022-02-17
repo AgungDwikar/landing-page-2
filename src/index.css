@@ -10,10 +10,10 @@
 
 @layer components {
     .primary-button {
-        @apply px-8 py-2 whitespace-nowrap font-semibold text-lg bg-[#02897A] text-white rounded-md cursor-pointer border-[#02897A] hover:bg-white border-2 hover:text-[#02897A] transition-all duration-200 active:scale-90;
+        @apply px-8 py-2 whitespace-nowrap text-lg rounded-md cursor-pointer border-2 active:scale-90 font-semibold text-white bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 ;
     }
     .secondary-button {
-        @apply px-8 py-2 whitespace-nowrap font-semibold text-lg border-2 border-[#BCD0E5] rounded-md cursor-pointer hover:border-[#02897A] hover:text-[#02897A] duration-200 active:scale-90;
+        @apply px-8 py-2 whitespace-nowrap font-semibold text-lg border-2 border-orange-600 rounded-md cursor-pointer hover:border-red-600 duration-200 active:scale-90;
     }
     .primary-button-white {
         @apply px-8 py-2 whitespace-nowrap font-semibold text-lg bg-[#f4f7f6] text-black rounded-md cursor-pointer border-[#f1f5f4] hover:bg-white border-2 hover:text-[#f2f5f4] transition-all duration-200 active:scale-90;

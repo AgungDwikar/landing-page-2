@@ -1,4 +1,5 @@
 import React from "react";
+import { ChevronRightIcon } from "@heroicons/react/solid";
 import {
     ClockIcon,
     CursorClickIcon,
@@ -29,8 +30,9 @@ function Features() {
                         iconBgColor="#02897A"
                         description="While most people enjoy casino gambling,"
                     />
-                    <button className="primary-button mt-14">
+                    <button className="primary-button mt-14 flex justify-center items-center ">
                         Get Started
+                        <ChevronRightIcon className="w-8" />
                     </button>
                 </div>
                 <div>
@@ -40,8 +42,9 @@ function Features() {
                         title="we Are Hiring"
                         description="While most people enjoy casino gambling,"
                     />
-                    <button className="primary-button mt-14">
+                    <button className="primary-button mt-14 flex justify-center items-center ">
                         Get Started
+                        <ChevronRightIcon className="w-8" />
                     </button>
                 </div>
                 <div>
@@ -51,8 +54,9 @@ function Features() {
                         title="Join Bootcamp"
                         description="While most people enjoy casino gambling,"
                     />
-                    <button className="primary-button mt-14">
+                    <button className="primary-button mt-14 flex justify-center items-center ">
                         Get Started
+                        <ChevronRightIcon className="w-8" />
                     </button>
                 </div>
             </div>

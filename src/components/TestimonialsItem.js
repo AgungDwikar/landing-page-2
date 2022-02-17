@@ -11,7 +11,7 @@ function TestimonialsItem({ rating, testimonial, userImg, name, designation }) {
     return (
         <div className="border rounded-md max-w-md">
             <div className="px-7 pt-7 pb-6">
-                <div className="text-yellow-400 flex h-8">{ratings}</div>
+                <div className=" flex h-8"><h2>bootcamp nodejs</h2></div>
                 <p className="text-left pt-4">{testimonial}</p>
 
                 <div>

@@ -20,28 +20,28 @@ function Testimonials() {
                 <TestimonialItem
                     name="Nina Watson"
                     designation="Designer"
-                    userImg="./images/user-1.jpg"
+                    userImg="./images/yuri.jpg"
                     rating={4}
                     testimonial={testimonial}
                 />
                 <TestimonialItem
                     name="Janice Harrison"
                     designation="Programmer"
-                    userImg="./images/user-2.jpg"
+                    userImg="./images/yuri.jpg"
                     rating={3}
                     testimonial={testimonial}
                 />
                 <TestimonialItem
                     name="Amy Adams"
                     designation="Photographer"
-                    userImg="./images/user-3.jpg"
+                    userImg="./images/yuri.jpg"
                     rating={4}
                     testimonial={testimonial}
                 />
                 <TestimonialItem
                     name="Amy Adams"
                     designation="Photographer"
-                    userImg="./images/user-3.jpg"
+                    userImg="./images/yuri.jpg"
                     rating={4}
                     testimonial={testimonial}
                 />

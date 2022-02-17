@@ -1,7 +1,8 @@
 import React from "react";
 import "../index.css";
 import { MenuIcon } from "@heroicons/react/solid";
-import { Link } from "react-scroll";
+import { Link as Linkin } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -33,7 +34,7 @@ function Header() {
                 <div className="hidden md:flex items-center space-x-3 lg:space-x-8">
                     {/* <div className="hidden max-w-xl md:grid gap-4 grid-cols-4 text-right"> */}
                     <p className="nav-item">
-                        <Link
+                        <Linkin
                             to="feature"
                             activeClass="active"
                             spy={true}
@@ -42,10 +43,10 @@ function Header() {
                             duration={500}
                         >
                             About
-                        </Link>
+                        </Linkin>
                     </p>
                     <p className="nav-item">
-                        <Link
+                        <Linkin
                             to="testimonial"
                             activeClass="active"
                             spy={true}
@@ -54,10 +55,10 @@ function Header() {
                             duration={500}
                         >
                             Testimonials
-                        </Link>
+                        </Linkin>
                     </p>
                     <p className="nav-item">
-                        <Link
+                        <Linkin
                             to="triners"
                             activeClass="active"
                             spy={true}
@@ -66,10 +67,10 @@ function Header() {
                             duration={500}
                         >
                             Triners
-                        </Link>
+                        </Linkin>
                     </p>
                     <p className="nav-item">
-                        <Link
+                        <Linkin
                             to="aboutus"
                             activeClass="active"
                             spy={true}
@@ -78,12 +79,15 @@ function Header() {
                             duration={500}
                         >
                             About Us
-                        </Link>
+                        </Linkin>
                     </p>
 
                     {/* </div> */}
 
-                    <button className="secondary-button">Sign in</button>
+                    <Link to="signin" className="secondary-button">
+                        <button>Sign In</button>
+                    </Link>
+                    {/* <button className="secondary-button">Sign in</button> */}
                     <button className="primary-button">Sign up</button>
                 </div>
             </div>
